@@ -14,5 +14,10 @@ def hello_name(name):
     return f"Hello, {escape(name)}!"
 
 
+@app.route("/user/<int:user_id>")
+def hello_user(user_id):
+    return f"Hello, user {user_id}!"
+
+
 if __name__ == "__main__":
     app.run()
