@@ -11,7 +11,7 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "python main.py",
+      "command": "flask run --debug",
       "runAtStart": true
     }
   }
