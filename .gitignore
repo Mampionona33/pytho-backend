@@ -1,0 +1,21 @@
+# Environnement virtuel
+venv/
+.env
+
+# Fichiers compilés
+__pycache__/
+*.pyc
+
+# Fichiers de logs
+*.log
+
+# Fichiers de sauvegarde
+*~
+
+# Répertoires de distribution et de construction
+dist/
+build/
+
+# Fichiers spécifiques à l'éditeur
+.vscode/
+.idea/
