@@ -7,9 +7,9 @@
 </head>
 <body>
     <ul>
-        <li><a href="/users/1">user 1</a></li>
-        <li><a href="/users/2">user 2</a></li>
-        <li><a href="/users/3">user 3</a></li>
+       {% for i in range(10) %}
+        <li><a href="/users/{{i}}">User {{i}}</a></li>
+       {% endfor %}
     </ul>
 </body>
 </html>
